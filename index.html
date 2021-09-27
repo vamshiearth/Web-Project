@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamshi's Fitness</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("img/bg.jpg");
+        color: white;
+        font-size: 20px;
+        font-family: "Baloo Bhaina 2", cursive;
+      }
+      .left {
+        color: white;
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        text-align: center;
+        font-size: 19px;
+      }
+      .mid {
+        color: white;
+        /* border: 2px solid greenyellow; */
+        display: block;
+        width: 50%;
+        margin: 40px auto;
+      }
+      .right {
+        position: absolute;
+        right: 45px;
+        top: 38px;
+        color: white;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+      }
+      ul {
+        padding: 0px;
+      }
+      nav li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 1px;
+      }
+      nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 0px 24px;
+      }
+      nav li a:hover {
+        color: gray;
+      }
+      .left img {
+        width: 58px;
+        filter: invert(100%);
+        margin-left: 3px;
+      }
+      .left div {
+        font-size: 20px;
+        margin-top: -14px;
+        margin-left: 19px;
+      }
+      .btn {
+        margin: 0px 9px;
+        background-color: #131416;
+        color: white;
+        border: 1px solid #131416;
+        padding: 4px 14px;
+        font-family: "Baloo Bhaina 2", cursive;
+      }
+      .btn:hover {
+        color: gray;
+        cursor: pointer;
+      }
+      .container {
+        border: 2px solid white;
+        padding: 32px 74px;
+        margin: 110px 94px;
+        width: 25%;
+        border-radius: 10px;
+      }
+      .form-group input {
+        font-size: 17px;
+        padding: 2px 11px;
+        margin: 8px 53px;
+        border-radius: 22px;
+      }
+      #submit {
+        margin: 0px 127px;
+        padding: 0px 17px;
+        border: 1px solid white;
+        border-radius: 23px;
+      }
+      h2 {
+        margin-bottom: -8px;
+        text-align: center;
+        width: 353px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img
+          src="https://thumbs.dreamstime.com/b/gym-logo-fitness-center-design-template-black-barbell-isolated-white-background-vector-103252465.jpg"
+          alt=""
+        />
+        <div>Vamshi Fitness</div>
+      </div>
+      <!-- Mid box for Navigation -->
+      <div class="mid">
+        <nav class="navbar">
+          <ul>
+            <li><a href="#" class="list">Home</a></li>
+            <li><a href="#" class="list">About us</a></li>
+            <li><a href="#" class="list">Fitness Calculator</a></li>
+            <li><a href="#" class="list">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Right for search -->
+      <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h2>Join the best gym now!!</h2>
+      <div class="form-group">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your name"
+        />
+      </div>
+      <div class="form-group">
+        <input type="text" name="name" id="name" placeholder="Enter Your age" />
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your gender"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your city"
+        />
+      </div>
+      <button class="btn" id="submit">submit</button>
+    </div>
+  </body>
+</html>
